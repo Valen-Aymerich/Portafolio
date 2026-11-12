@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Pasantía | Valentina Bolaños Aymerich</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">Valentina<span>.dev</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#perplexity">Análisis IA</a></li>
+          <li><a href="#cv">Currículum</a></li>
+          <li><a href="#podcast">Podcast</a></li>
+          <li><a href="#video">Video Avatar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Perfil Profesional -->
+  <section id="perfil" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">Pasantía Laboral 2026 • C.T.P. de Aserrí</span>
+        <h1>Valentina Bolaños Aymerich</h1>
+        <h2>Especialidad en Desarrollo Web</h2>
+        <p>
+          Desarrolladora web en formación con experiencia práctica en el <strong>Ministerio de Vivienda y Asentamientos Humanos (MIVAH)</strong>. Especializada en modernización de interfaces legacy hacia entornos web responsivos con HTML5, CSS3, JavaScript y Python (Flask/Waitress).
+        </p>
+        <div class="hero-buttons">
+          <a href="#cv" class="btn btn-primary">Ver Currículum</a>
+          <a href="#perplexity" class="btn btn-outline">Explorar Evidencias</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Resumen de Pasantía</h3>
+        <ul>
+          <li><strong>Institución:</strong> MIVAH</li>
+          <li><strong>Supervisor:</strong> Brandon Zamora Carranza</li>
+          <li><strong>Proyectos clave:</strong> Carrusel multimedia en Flask/Waitress y rediseño responsivo del sistema de Control de Visitas (Bio-Autentika).</li>
+          <li><strong>Habilidades blandas:</strong> Resolución de problemas, aprendizaje autónomo, atención al detalle y comunicación técnica.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Punto 1: Captura e Impactos de Perplexity -->
+  <section id="perplexity" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">1. Análisis de Bitácoras con IA (Perplexity)</h2>
+      <p class="section-subtitle">Impactos profesionales, habilidades blandas ejecutadas y perfil técnico extraídos de las bitácoras de pasantía.</p>
+      
+      <div class="grid-2">
+        <div class="card">
+          <h3>3 Impactos clave para el Currículum</h3>
+          <ul class="styled-list">
+            <li><strong>Modernización de Sistemas:</strong> Migración visual de una aplicación de escritorio legacy (Bio-Autentika) hacia una interfaz web responsiva alineada con la identidad gráfica del MIVAH.</li>
+            <li><strong>Optimización Multimedia:</strong> Implementación de un servidor backend en Python (Flask y Waitress) para garantizar streaming continuo de video sin interrupciones.</li>
+            <li><strong>Experiencia de Usuario (UX/UI):</strong> Diseño Mobile-First con breakpoints personalizados, menús desplegables en JavaScript y tablas adaptables con scroll horizontal.</li>
+          </ul>
+        </div>
+
+        <div class="card evidence-box">
+          <h3>Evidencia: Captura de Perplexity</h3>
+          <!-- Reemplaza la ruta cuando tengas tu captura lista -->
+          <img src="/img/so.png" alt="Captura de pantalla de consulta en Perplexity" class="media-preview" />
+          <p class="caption">Consulta realizada sobre impactos, habilidades blandas y perfil profesional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Punto 2: Currículum Vitae -->
+  <section id="cv" class="section">
+    <div class="container">
+      <h2 class="section-title">2. Currículum Vitae Actualizado</h2>
+      <p class="section-subtitle">Integración del perfil de Brete.com con los logros técnicos obtenidos en la pasantía.</p>
+      
+      <div class="card cv-container">
+        <div class="cv-actions">
+          <a href="assets/cv-valentina.pdf" download class="btn btn-primary">Descargar CV en PDF</a>
+          <a href="assets/cv-valentina.pdf" target="_blank" class="btn btn-outline">Abrir en pestaña nueva</a>
+        </div>
+        <!-- Visor integrado de PDF -->
+        <iframe src="assets/cv-valentina.pdf" class="pdf-viewer" title="Currículum de Valentina Bolaños"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Punto 3: Podcast con NotebookLM / Gemini -->
+  <section id="podcast" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">3. Podcast: Experiencia en el MIVAH</h2>
+      <p class="section-subtitle">Conversación generada con IA (5 minutos) analizando los logros, retos técnicos y aprendizajes de la pasantía.</p>
+      
+      <div class="card audio-card">
+        <div class="audio-info">
+          <h3>Episodio: De sistemas legacy a interfaces web modernas</h3>
+          <p>Voces generadas con NotebookLM / Gemini AI basadas en el análisis de las bitácoras semanales.</p>
+        </div>
+        <audio controls class="audio-player">
+          <source src="/mp3/De_web_rígida_a_interfaz_móvil_impecable.m4a" type="audio/mpeg" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Punto 4: Video con Avatar -->
+  <section id="video" class="section">
+    <div class="container">
+      <h2 class="section-title">4. Presentación en Video con Avatar</h2>
+      <p class="section-subtitle">Demostración de las acciones realizadas durante la pasantía utilizando avatar digital (Viverse / Dreamina / CapCut / Hailuo AI).</p>
+      
+      <div class="card video-card">
+        <video controls class="video-player" poster="assets/miniatura-video.png">
+          <source src="/video/video.mp4" type="video/mp4" />
+          Tu navegador no soporta la reproducción de video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Portafolio de Pasantía Laboral 2026 • Valentina Bolaños Aymerich</p>
+      <p class="footer-sub">Colegio Técnico Profesional de Aserrí • Especialidad Desarrollo Web</p>
+    </div>
+  </footer>
+
+</body>
+</html>
